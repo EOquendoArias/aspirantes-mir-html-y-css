@@ -1,4 +1,3 @@
-
 fieldset {
     border-radius: 20px;
     width: 300px;
@@ -6,53 +5,59 @@ fieldset {
     padding: 20px;
     box-shadow: 5px 5px 5px rgba(17, 16, 16, 0.507);
     background: linear-gradient(#bd09b7, #6b4cf5)
-  }
-form{
+}
+
+form {
     font-family: Arial, Helvetica, sans-serif;
     color: azure;
 }
 
 
-#email{
+#email {
     width: 300px;
     padding: 7px;
     border-radius: 7px;
-  }
- 
-  #contraseña{
+}
+
+#contraseña {
     width: 300px;
     padding: 7px;
     border-radius: 7px;
-    }
+}
 
 
-#lang{
+#lang {
     padding: 7px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     padding-right: 225px;
-    
-  }
 
- #checkbox{
+}
+
+#checkbox {
     padding: 100px;
-    
- } 
-#enviar{
+
+}
+
+#enviar {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
-    position: relative; left: 200px;
-  
-} 
+    position: relative;
+    left: 200px;
 
-@media (max-width:500px){
-    .form width: 100%;
 }
 
+@media screen and (min-width:500px) {
+    .form {
+        width: 100%;
+    }
+}
 
-@media screen (min-width:500px){
-    .form width: 300px;
+@media screen and (max-width:500px) {
+    .form {
+        width: 300px;
+    }
 }
