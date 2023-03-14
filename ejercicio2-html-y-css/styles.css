@@ -45,10 +45,14 @@ form{
     padding-left: 15px;
     padding-right: 15px;
     position: relative; left: 200px;
-
-    
+  
 } 
 
-  
-  
-  
+@media (max-width:500px){
+    .form width: 100%;
+}
+
+
+@media screen (min-width:500px){
+    .form width: 300px;
+}
