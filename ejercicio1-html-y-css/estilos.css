@@ -1,27 +1,50 @@
-h1{
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#imag1 {
+    position: relative;
+    left: 500px;
+}
+
+h1 {
     background-color: rebeccapurple;
     border-radius: 10px;
-    color:white;
+    color: white;
     padding: 10px;
     text-align: center;
     font-style: normal;
-    }
+}
 
-    h2{
-        
-        color:rgb(12, 151, 110);
-        text-align: left;
-        font-style: normal;
-    }
+h2 {
 
-    h3{
-        color:rgb(12, 151, 110);
-        text-align: left;
-        font-style: normal;
-    }
+    color: rgb(12, 151, 110);
+    text-align: left;
+    font-style: normal;
+}
+
+h3 {
+    color: rgb(12, 151, 110);
+    text-align: left;
+    font-style: normal;
+    font-size: x-large;
+}
+
+#ingredientes {
+    color: rgb(92, 83, 71);
+    font-size: large;
+    line-height: normal;
+}
+
+#preparar {
+    color: rgb(92, 83, 71);
+    font-size: large;
+    line-height: normal;
+}
 
 P {
-    color:rgb(7, 7, 7);
-        text-align: justify;
-        font-style: normal;  
-  }
+    color: rgb(7, 7, 7);
+    text-align: justify;
+    font-style: normal;
+    font-size: x-large;
+}
