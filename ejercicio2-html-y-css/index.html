@@ -14,39 +14,38 @@
 <body>
 
     <form>
-        <fieldset>
+        <div class="formulario">
             <h1>Login</h1>
-            <section id="uno">
-                <p>Email:
-                    <br>
-                    <input type="email" name="Email" id="email" /> </br>
-                </p>
-            </section>
+            <fieldset id="uno">
 
-            <section id="dos">
-                <p>Password:
-                    <br>
-                    <input type="password" name="password" id="contraseña" /> </br>
-                </p>
-            </section>
-            <section id="tres">
-                <p>Género:
-                    <br>
-                    <label for="lang" id="seleccionar"></label>
-                    <select name="genero" id="lang">
-                        <option value="Hombre">Hombre</option>
-                        <option value="Mujer">Mujer</option>
-                        <option value="Otro">Otro</option>
-                    </select>
-                    </br>
-                </p>
-            </section>
-            <p>
-                <input type="checkbox" name="password" id="checkbox" />
-                Acepto los términos
-            </p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" />
+
+
+            </fieldset>
+            <fieldset id="dos">
+
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="contrasena" />
+
+            </fieldset>
+
+            <fieldset id="tres">
+
+                <label for="lang" id="seleccionar">Género</label>
+                <select name="genero" id="lang">
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="Otro">Otro</option>
+                </select>
+
+            </fieldset>
+
+            <input type="checkbox" name="terms" id="terms" />
+            <label form="terms">Acepto los terminos</label>
+
             <input type="submit" value="Ingresar" title="Ingresar" id="enviar" />
-        </fieldset>
+            </fieldset>
 
     </form>
 
